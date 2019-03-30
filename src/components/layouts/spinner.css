@@ -1,0 +1,25 @@
+.spinner {
+  height: 3rem;
+  width: 3rem;
+  border: 5px solid dodgerblue;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear 1s infinite running;
+  margin: auto;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+    opacity: 1;
+  }
+  to {
+    transform: rotate(360deg) scale(1);
+    opacity: 0.5;
+  }
+}
