@@ -1,6 +1,6 @@
-## The final project in Brad Traversy's react front to back
+## The Client Panel App
 
-Client Panel App
+Features:
 - The app can let user add, edit and delete clients with their respective account balances
 - The user can see on the dashboard the total amount owed to him/her.
 - The user can also change some settings like enabling registration and edit/delete client balances
